@@ -1,0 +1,19 @@
+@relation Pass
+
+@attribute Weather{clear,cloudy,rainy}
+@attribute Uniform{crimson,gray}
+@attribute Win{yes,no}
+@attribute BuyJersey{yes,no}
+
+@data
+clear,crimson,yes,yes
+clear,crimson,no,yes
+clear,gray,yes,yes
+clear,gray,no,no
+cloudy,crimson,yes,yes
+cloudy,crimson,no,yes
+cloudy,gray,no,no
+rainy,crimson,yes,yes
+rainy,crimson,no,yes
+rainy,gray,yes,no
+rainy,gray,no,no
